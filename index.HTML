@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="csss.css">
+    <script src="javascript.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+      <center> <input type="checkbox" class="btn_d" onclick="darkMode()";>Light Mode</center>
+
+ </div>
+    <div class="allbtn">
+    <input class="btn_test" type="button" value="G" style="font-weight:bold;" onclick="gras()"; />
+   <input class="btn_test"type="button" value="I" style="font-weight:italic;" onclick="italic()";/>
+   <input class="btn_test"type="button" value="U" style="text-decoration:underline;"onclick="underline()"; />
+   <input class="btn_test"type="button" value="S" style="text-decoration:overline ;"onclick="strikethrough()";/>  
+ </div>
+
+ 
+<center><textarea id="editeur" class="teste"  onpaste="return false;" ></textarea></center>
+  <center> <input type = "button" value="Reset" style="font-weight:bold;" id="btn_reset"/></center>
+  <center> <div class="barreCalc"><div class ="barre"></div></div></center>
+  <center><div class="lds-ring"><div></div><div></div><div></div><div></div></div></center>
+  <center><div  id="resultat" class="testb" ></div></center>
+   
+    
+</body>
+</html>

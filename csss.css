@@ -1,0 +1,52 @@
+
+
+#editeur, #resultat{
+ width: 50%;
+height: 200px;
+border: 6px groove rgb(0, 0, 0);
+border-radius: 20px;
+padding: 5px;
+overflow: auto;
+display: flex;
+}
+
+.barre{
+width:0%;
+height:20px;
+align-content:  center;
+padding:7px;
+}
+
+.barreCalc{
+background-color:rgb(255, 255, 255);
+width:50%;
+height:20px;
+padding-top:30px;
+display: flex;
+margin-bottom: 30px;  
+}
+
+/*dark mode*/
+#editeur {
+font-size:larger;
+}
+.dark-mode{
+background-color: black;
+color: white;
+}
+
+.allbtn{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 10px;
+}
+.btn_test{
+    margin-right: 10px;
+    height: 20px;
+}
+.btn_d{
+margin-bottom: 10px;
+}
+#btn_reset{
+    margin:10px;
+}
